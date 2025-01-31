@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        
+        <h1>¡Bienvenidos a mi portafolio Web!</h1>
+        <img src="Imagenes/LogoLCI.png" height="300" width="500">
+    </header>
+    <section id="sobre-mi" class="active">
+      <div id="mi-mision" style="background-color: rgb(160, 210, 226); padding: 20px;">
+        <h1 style="text-align: center;">Mi Presentación</h1>
+        <p>
+            Yo Jack Jesús Acasiete Almeyda con 20 años de edad, soy estudiante de la <strong>universidad Autónoma de Ica</strong>, me encuentro en la carrera de ingeniería de Sistemas. Actualmente estoy cursando el IV ciclo y en mi recorrido ya tengo experiencia en Java, JavaScript y un poco de React. Me gustaría seguir aprendiendo más cosas con el tiempo ya que tengo como objetivo ser un programador full stack. Me considero una persona autodidacta, responsable y que siempre busca encontrar una solución a los problemas. 
+        </p>
+        <div style="text-align: center;">
+          <img src="Imagenes/yo.jpeg" height="400" width="300">
+        </div>
+        <p>---------------------------------------------------<strong>Contáctame:</strong> Gmail: acasietejack19@gmail.com / Instagram: jack.acasiete19---------------------------------------------------</p>
+        </div>
+        <br>
+        <div id="mi-mision" style="background-color: lightblue; padding: 20px;">
+        <h2>Misión</h2>
+        <p>Como estudiante de ingeniería en sistemas, mi misión es utilizar mi conocimiento en tecnologías de la información para desarrollar soluciones innovadoras y efectivas que optimicen los procesos en diversas organizaciones. A través de la implementación de herramientas informáticas, busco contribuir al crecimiento y mejora continua de las empresas, promoviendo un ambiente de trabajo más eficiente y eficaz.</p>
+        <div style="text-align: center;">
+         <img src="Imagenes/misionprogramacion.jpeg" width="400" height="200">
+        </div>
+      </div>   
+      <br>
+        <div id="mi-vision" style="background-color: rgb(202, 234, 245); padding: 20px;">
+            <h2>Visión</h2>
+            <p>Pertenecer a la generación de ingenieros en sistemas que lideran el desarrollo tecnológico, destacándose por la creación de soluciones innovadoras y sostenibles que transformen la manera en que las organizaciones operan. Aspiro a ser un referente en el uso estratégico de las tecnologías de la información, promoviendo un impacto positivo en la sociedad mediante la mejora de procesos, la optimización de recursos y la integración de tecnologías avanzadas. </p>
+            <div style="text-align: center;">
+              <img src="Imagenes/visionprogramacion.jpeg" height="200" width="400">
+            </div>
+          </div>    
+        <h2>Valores <span class="toggle" onclick="toggleList('habilidades-lista')">▼</span></h2>
+            <ul class="desplegable" id="habilidades-lista">
+                <li><strong>Liderazgo:</strong> desde siempre me ha gustado ser encargado de grupos o equipos, me gusta motivar a las personas.</li>
+                <li><strong>Trabajo en equipo:</strong> me puedo adaptar facilmente a cualquier equipo sin ninguna complicación.</li>
+                <li><strong>Responsabilidad:</strong> mayormente me gusta ser responsable con mis actividades, no me gusta dejar actividades para un después.</li>
+                <li><strong>Empatía:</strong> ponerme en los zapatos de la otra persona es algo que casi siempre suelo hacer.</li>
+                <li><strong>Innovador:</strong> estar mejorando proyectos o trabajos es algo que me gusta, la necesidad de que siempre falta algo más vive en mi.</li>
+                <li><strong>Eficiencia con los resultados:</strong> cuando empiezo a realizar un proyecto, no paro hasta que lo termino.</li>
+            </ul>
+            <h2>Pasatiempos <span class="toggle" onclick="toggleList('conocimientos-lista')">▼</span></h2>
+            <ul class="desplegable" id="conocimientos-lista">
+                <li><strong>Escuchar música:</strong> me gusta mucho las canciones del género trap, especialmente si es de artista peruanos.</li>
+                <li><strong>Practicar programación:</strong> me encanta programar, cada dia de práctica lo suelo disfrutar por el hecho de que puedo realizar todo lo que imagino.</li>
+                <li><strong>Salir a caminar:</strong> uno de los lugares el cual disfruto caminar es la playa, el sonido del mar y de las olas me dan tranquilidad.</li>
+                <li><strong>Leer:</strong> me gusta leer libros antiguos y de programación, lo suelo hacer mayormente en la noche para más concentración.</li>
+            </ul>
+            <h2>Logros obtenidos <span class="toggle" onclick="toggleList('proyectos-lista')">▼</span></h2>
+            <ul class="desplegable" id="proyectos-lista">
+                <li>Certificado en React     <button><a href="https://drive.google.com/file/d/1Pv7L4GvbISxyQ0eh4BQzNhZoabC1BBaj/view?usp=sharing">¡Dar click para ver!</a></button></li>
+                <li>Certificado en Javascript     <button><a href="https://drive.google.com/file/d/1Why0Z6A1mlvhb4c3CWhMxKLhaZwz6o8y/view?usp=sharing">¡Dar click para ver!</a></button></li>
+                <h3><p><strong>Proyectos Realizados:</strong></p></h3>
+                <li>Brasas Queen - Caja registradora</li>
+                <li>Brasas Queen - Gestión de inventario</li>
+            </ul>
+            <div id="mi-mision" style="background-color: rgb(204, 213, 216); padding: 20px;">
+            <h2>Curriculum Vitae</h2>
+            <p>Para poder observar mi CV debes darle click <a href="https://drive.google.com/file/d/1AXFGMota_v0rQL4meIZIsWzN1EvZ7xxO/view?usp=sharing">aquí!</a></p>
+            </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
